@@ -4,6 +4,9 @@
 # @Email  :15967579213@163.com
 # @File   :run.py
 #读取文件
+import sys, io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="gb18030")
+
 from openpyxl import load_workbook
 from class_automations.class_homework_R_W_excel import read_data
 from class_automations.http_Request_case import http_request

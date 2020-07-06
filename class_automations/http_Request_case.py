@@ -3,6 +3,7 @@
 # @Author :sunzhe
 # @Email  :15967579213@163.com
 # @File   :http_request_case.py
+
 import requests
 mobile_phone_user = '15055555328'
 mobile_phone_admin = "15055555238"
